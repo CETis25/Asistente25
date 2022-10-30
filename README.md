@@ -2,7 +2,7 @@
 Un asistente virtual especializado en resolver dudas a los alumnos del plantel.
 
 - Demo disponible en:
-https://asistente25.herokuapp.com/
+https://CETis25.github.io/Asistente25
 
 Colaboradores:
 David Emmanuel Santana Romero (HakkinDavid)
