@@ -1,0 +1,68 @@
+Día 14 de Junio de 2021
+He decidido por empezar un proyecto que facilite la información precisa
+a los alumnos cuando no hay un docente disponible.
+Me decanté por utilizar Node.JS, TailwindCSS y Svelte como base para mi
+proyecto, pues tengo amplio conocimiento en el área del desarrollo web.
+Por el momento no hay nada más que un fondo gris y la barra de navegación.
+
+Día 1 de Agosto de 2021
+Estuve muy ocupado con otro proyecto en el que soy programador, pero finalmente
+he encontrado un balance en mis tiempos, por lo que me enfocaré en esto.
+Hoy añadí la casilla de mensajes y un espacio para escribir. He colocado
+algunos mensajes de prueba.
+Concluyentemente, se usarán Arrays (o colecciones de datos) de objetos JSON que
+resguardarán el contenido de cada mensaje, así como las propiedades del remitente
+(nombre y foto de perfil).
+De este modo, también me aseguro de poder actualizar los mensajes asincrónicamente.
+
+Día 4 de Agosto de 2021
+El asistente ha sido satisfactoriamente integrado. Escribí dos funciones en un
+archivo JavaScript: ayuda() y makeMessage() ... La primera función se encarga del
+procesamiento lógico del lenguaje, recibe el texto conjunto de un mensaje y lo
+analiza a detalle para encontrar similitudes con alguna frase clave de la base
+de datos, empleando dos algoritmos, el de la distancia de Levenshtein y el
+Coeficiente de Sorensen-Dice; a secas, el primero calcula la cantidad mínima de
+movimientos o cambios necesarios para convertir una cadena de texto en otra, el
+segundo es más sencillo pero tiene su mérito, pues busca el porcentaje total de similitud.
+La segunda función se encarga del formateo de un objeto JSON en mensaje, así podré
+evitar repetir mi código una y otra y otra vez.
+La base de datos es un archivo JSON, aún no resuelvo el problema de cómo actualizarla
+dinámicamente, puesto que no tengo un servidor como tal.
+
+Día 13 de Agosto de 2021
+Hoy me desvelé programando lo que considero es el mayor cambio del proyecto. Encontré
+la manera de guardar los datos en una base de datos tipo Redis, por lo que me enfoqué
+en integrar eso dentro de la aplicación. Lastimosamente, para que esto sea posible
+necesito acceso a la API FileSystem de Node.JS, misma que carecen los navegadores.
+Después de lo que creí era un problema sin solución, se me ocurrió "¿Y si hago una app
+nativa?", más específicamente, una basada en Electron. Así fue como en una madrugada
+refactoricé todo el código y lo empaqueté dentro del entorno Electron. No podría describir
+con palabras la satisfacción que me dio ver que funcionó.
+Finalmente, programé las funciones para añadir y quitar conocimiento de la base de datos
+desde la misma app. En unas horas tuve lista una interfaz sencilla e improvisada para los
+docentes que se muestren interesados en proveer su saber.
+También añadí una pestaña con los datos del proyecto y los créditos, además de crear una
+página de descarga para el asistente.
+
+Día 14 de octubre de 2021
+Hoy minimicé las llamadas al servidor, así como la dependencia del mismo. Ahora el asistente
+es capaz de guardar una copia local de la base de datos para usarse en caso de perder la conexión.
+Mejoré la lógica del menú de aprendizaje y su interfaz.
+
+Día 17 de octubre de 2021
+Hice posible embedir imágenes, además de resolver múltiples errores provocados por perder la conexión
+a Internet.
+
+Día 29 de octubre de 2021
+Hoy presenté el proyecto ante el concurso de Expociencias 2021 y obtuve muchos comentarios positivos,
+además de propuestas de mejora para el proyecto por parte de 4 jueces. El organizador principal es
+programador, por cierto. Las principales propuestas fueron:
+        - Ampliar su funcionalidad offline.
+        - Buscar alimentarlo de información propia del plantel.
+        - Generarle la posibilidad de preguntar aspectos más técnicos referentes a cada escuela
+          como puede ser la integración de los sistemas de datos del plantel (horarios, profesores,
+          calificaciones, periodos de corte, etc.).
+        - Buscar aprender a programar inteligencia artificial e incorporarla al asistente.
+        - Extender su funcionalidad a múltiples planteles e incluso múltiples niveles educativos.
+        - Incursionar en su implementación generalizada.
+Fuera de eso, recibí felicitaciones y una cálida motivación a continuar mi carrera como programador.

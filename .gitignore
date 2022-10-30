@@ -1,0 +1,12 @@
+/public/build/
+/node_modules/*
+!/node_modules/boxicons/
+/node_modules/boxicons/*
+!/node_modules/boxicons/dist/
+/node_modules/boxicons/dist/*
+!/node_modules/boxicons/dist/boxicons.js
+/dist/
+
+.DS_Store
+.env
+.env.prod

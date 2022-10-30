@@ -1,0 +1,57 @@
+{
+    "hola": {
+        "originalQuery": "Hola",
+        "reply": "Buenos días.",
+        "attachments": [],
+        "theme": "Saludos"
+    },
+    "¿cómo estás?": {
+        "originalQuery": "¿Cómo estás?",
+        "reply": "Me encuentro bien. Gracias.",
+        "attachments": [],
+        "theme": "Saludos"
+    },
+    "¿qué es la notación científica?": {
+        "originalQuery": "¿Qué es la notación científica?",
+        "reply": "Es la representación de un número muy grande o muy pequeño utilizando potencias de diez. Para convertir a notación científica, es necesario recorrer el punto decimal de tal forma que solo quede un dígito significativo a la izquierda del punto. El número de veces que se ha recorrido el punto decimal determina el exponente de la base 10 y el sentido de su recorrido determina el signo del exponente: Positivo a la izquierda y negativo a la derecha.\n\nPara convertir un número de notación científica en forma desarrollada, el proceso se invierte. Es necesario recorrer el punto decimal los lugares indicados por el exponente de la base 10, si es positivo a la derecha y si es negativo a la izquierda, en caso de ser necesario agregar ceros cuando se requiera completar el recorrido.",
+        "attachments": [
+            "https://www.youtube.com/watch?v=qjX4wKUoK7E",
+            "https://www.mediafire.com/convkey/c24b/5du27iydbunagmwzg.jpg",
+            "https://www.mediafire.com/convkey/1064/4s88zru4itys9vg9g.jpg",
+            "https://www.mediafire.com/convkey/538a/rm5hbdad5srolek9g.jpg"
+        ],
+        "theme": "Física"
+    },
+    "¿qué es un escalar?": {
+        "originalQuery": "¿Qué es un escalar?",
+        "reply": "Un escalar es una cantidad física que se define solo por la magnitud. Carece de sentido y dirección.\n\nAlgunas magnitudes escalares son\nDistancia: ej. d = 2km\nRapidez: ej. v = 4 m/s\nMasa: ej. m = 3 kg\nEnergía: ej. E = 50 J\nPotencia: ej. P = 200 kW",
+        "attachments": [],
+        "theme": "Física"
+    },
+    "¿qué es un vector?": {
+        "originalQuery": "¿Qué es un vector?",
+        "reply": "Un vector es una cantidad física que requiere de dirección y sentido, además de magnitud, para quedar completamente definida.\n\nAlgunos ejemplos de vectores son las siguientes\nDesplazamiento: ej. d⃗ = 80 km ∠30°\nVelocidad: v⃗ = 20 m/s ∠50°\nConstante de gravedad: g⃗ = 9.81 m/s² ↓\n\nUn vector se representa gráficamente con una flecha. La magnitud del vector es la longitud de la flecha, la dirección es la inclinación y el sentido es la punta de la flecha. Se utiliza una escala para poder hacer la representación gráfica, sobre todo cuando los vectores son grandes.",
+        "attachments": [
+            "https://www.mediafire.com/convkey/7e35/obp8jge1eldbatwzg.jpg"
+        ],
+        "theme": "Física"
+    },
+    "¿cómo sumar vectores?": {
+        "originalQuery": "¿Cómo sumar vectores?",
+        "reply": "Existen dos métodos principales para realizar la suma de vectores: El método analítico y el método gráfico.\n\n**Los pasos para sumar vectores con el método analítico son**\n1. Establecer el ángulo de cada vector, referenciado al eje X positivo, (notación 360°).\n2. Determinar los componentes rectangulares de cada vector, es decir, las fuerzas que lo componen en el eje X y el eje Y.\n    ```F_x = Fcos\\theta```\n    ```F_y = Fsen\\theta```\n3. Determinar la componente X de la resultante.\n    ```R_x = Fx_1 + Fx_2 + Fx_3 + ... + Fx_n```\n4. Determinar la componente Y de la resultante.\n    ```R_y = Fy_1 + Fy_2 + Fy_3 + ... + Fy_n```\n5. Determinar la resultante R\n    ```R=\\sqrt{R^2_x+R^2_y}```\n6. Determinar el ángulo ```\\theta``` de la resultante.\n    ```\\theta=\\tan^{-1}\\frac{R_y}{R_x}```\n7. La equilibrante es un vector que tiene la misma magnitud de la resultante pero sentido contrario.\n    ```\\overset{\\rightarrow}{E}=-\\overset{\\rightarrow}{R}```\n\n**Los pasos para sumar vectores con el método gráfico son**\n1. Establecer una escala adecuada para dibujar todos los vectores en una sola hoja.\n2. Dibujar todos los vectores, tomando el final de uno como el origen del siguiente, respetando la magnitud (escala) y el ángulo correspondiente.\n3. La resultante se obtiene uniendo el origen del primer vector con el final del último. Se debe medir la magnitud del vector en el dibujo y aplicar la escala, para determinar su valor real.",
+        "attachments": [
+            "https://www.youtube.com/watch?v=eALL0AKLjAA",
+            "https://www.youtube.com/watch?v=TWdLKBC_AgA",
+            "https://www.mediafire.com/convkey/61e1/9u4m8g9aa6gigpi9g.jpg"
+        ],
+        "theme": "Física"
+    },
+    "¿qué es el movimiento rectilíneo uniforme?": {
+        "originalQuery": "¿Qué es el movimiento rectilíneo uniforme?",
+        "reply": "El movimiento rectilíneo uniforme (MRU) es aquel que se da en línea recta con una velocidad constante. Se recorren distancias iguales en tiempos iguales.\n\nLa ecuación del movimiento rectilíneo uniforme es\n```v=\\frac d t```\n\n**Ejemplo**\nUn auto se mueve con una velocidad de ```72\\frac {km}{h}```. Determina la distancia recorrida en ```20s``` y el tiempo que tarda en recorrer ```200m```.\n\nDatos\n```v=72\\frac{km}{h}=20\\frac{m}{s}```, ```t=20s```\n\nFórmula\n```v=\\frac {d} {t}```\n\nSustitución\n```v=\\frac {d} {t}=>d=vt```\n```d=(20\\frac{m}{s})(20s)=400m```\n\n```v=20\\frac{m}{s}```, ```d=200m```\n```v=\\frac {d} {t}=>t=\\frac d v```\n```t=\\frac d v=\\frac{200m}{20\\frac{m}{s}}=10s```\n\nResultados\n```d=400m```\n```t=10s```",
+        "attachments": [
+            "https://www.mediafire.com/convkey/02cf/nb9w1tispg8i9gd9g.jpg"
+        ],
+        "theme": "Física"
+    }
+}
