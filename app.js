@@ -6,7 +6,7 @@ let app = express();
 
 let nuts = Nuts({
     // GitHub configuration
-    repository: "CETis25/Asistente",
+    repository: "HakkinDavid/Asistente",
     token: process.env.GITTOKEN
 });
 
