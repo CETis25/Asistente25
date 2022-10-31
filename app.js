@@ -10,6 +10,6 @@ let nuts = Nuts({
     token: process.env.GITTOKEN
 });
 
-app.use('#api', nuts.router);
+app.use('/api', nuts.router);
 app.use(express.static("public"));
 app.listen(process.env.PORT || 3000);
