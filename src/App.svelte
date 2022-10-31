@@ -85,7 +85,7 @@
 				<div class="flex flex-row flex-wrap gap-6">
 					<div class="flex-grow text-4xl text-white font-oswald rounded-lg flex place-items-center">
 						<p class="mr-2">Windows</p>
-						<a href="https://asistente25.herokuapp.com/api/download/win32"><button
+						<a href="https://github.com/CETis25/Asistente25/releases/download/latest/Asistente25.exe"><button
 							class="focus:outline-none hover:bg-blue-500 bg-dgeti p-2 rounded-lg"
 						>
 							Descargar
